@@ -5,6 +5,44 @@ function verificaCadastro(){
     const cep1 = 1
     return cep1
 }
+//valida dados
+function validaNome(id){
+    const name = $(id)
+    console.log(name.val());
+    if (name ==""){
+        errorName(id)
+    } else if (name.val().length > 2) {
+        nameNaTela(id)
+    } else {
+        errorName(id)
+    }
+}
+// email
+function validaEmail(){
+    const email= $("#inputEmail").val()
+    console.log(email.length);
+    if(email == ""){
+        alert("preencha os campos")
+    } else {
+        const contemArro = /@/
+        if(!contemArro.test(email)) {
+            return alert("não é um email")
+        } else if (email.length < 8){
+            alert('ta pequeno ainda')
+        } else {
+            alert("email valido")
+        }
+    }
+}
+function validaEmailVer(){
+    const email = $("#inputEmail").val()
+    const emailVer = $("#inputEmailVer").val()
+    if (email !== emailVer){
+        alert("emails não coincidem")
+    } else {
+        alert("ok")
+    }
+}
 
 // Cep
 function buscaCep(){
@@ -21,7 +59,7 @@ function buscaCep(){
                 }
                 else {
                     limpa_formulário_cep();
-                    alert("CEP não encontrado.");
+                    cepNotFound()
                 }
             });
         }
