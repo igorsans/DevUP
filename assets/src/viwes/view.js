@@ -1,2 +1,2 @@
 // ola eu sou sua viwer
-$('#footer').load("../pages/elements/footer.html")
+$('#footer').load("../../assets/pages/elements/footer.html")
