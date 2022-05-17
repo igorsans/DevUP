@@ -1,4 +1,4 @@
 // ola eu sou sua viwer
 () => {
-    $('#footer').load("../../elements/footer.html")
+    $('#footer').load("../../pages/elements/footer.html")
 }
