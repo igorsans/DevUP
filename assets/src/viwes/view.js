@@ -1,2 +1,21 @@
 // ola eu sou sua viwer
 $('#footer').load("https://igorsans.github.io/DevUP/assets/pages/elements/footer.html")
+
+
+// cep na tela
+function thinking() {
+    $("#inputRua").val("...");
+    $("#inputEstado").val("...");
+}
+function replace(dados) {
+    $("#inputRua").val(dados.logradouro);
+    $("#inputRua").attr("readonly", "true");
+    $("#inputEstado").val(dados.localidade);
+    $("#inputEstado").attr("readonly", "true");
+}
+function limpa_formulário_cep() {
+    $("#inputRua").val("");
+    $("#inputRua").removeAttr( "readonly","true");
+    $("#inputEstado").val("");
+    $("#inputEstado").removeAttr( "readonly","true");
+}
