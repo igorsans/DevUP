@@ -17,18 +17,27 @@
 </head>
 <body>
   <div style="width: 600px; margin: auto">
-    <form class="row g-3" action="javascript:alert( 'success!' )">
+    <form class="row g-3 needs-validation" novalidate action="javascript:alert( 'success!' )">
       <div class="form-floating col-md-6">
-        <input class="form-control" id="floatingTextarea" type="text" placeholder="Default input" aria-label="default input example">
-        <label for="floatingTextarea">Nome</label>
+        <input class="form-control" id="inputName" type="text" placeholder="Default input" aria-label="default input example" required>
+        <label for="inputName">Nome*</label>
+        <div class="invalid-feedback">
+          Por favor digite o seu nome.
+        </div>
       </div>
       <div class="form-floating col-md-6">
-        <input class="form-control" id="floatingTextarea" type="text" placeholder="Default input" aria-label="default input example">
-        <label for="floatingTextarea">Sobrenome</label>
+        <input class="form-control" id="inputNick" type="text" placeholder="Default input" aria-label="default input example">
+        <label for="inputNick">Sobrenome</label>
+        <div class="invalid-feedback">
+          Por favor digite o seu sobrenome.
+        </div>
       </div>
       <div class="col-md-3">
         <label for="inputCep" class="form-label">Cep</label>
         <input type="text" class="form-control" id="inputCep">
+        <div class="invalid-feedback">
+          Cep invalido!
+        </div>
       </div>
       <div class="col-md-4">
         <label for="inputCity" class="form-label">Número</label>
@@ -49,12 +58,12 @@
       
       <div class="row g-3" style="margin: auto; margin-top: 50px; margin-bottom: 50px;">
         <div class="form-floating mb-3 col-md-6">
-          <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
-          <label for="floatingInput">Email</label>
+          <input type="email" class="form-control" id="inputEmail" placeholder="name@example.com">
+          <label for="inputEmail">Email</label>
         </div>
         <div class="form-floating mb-3 col-md-6">
-          <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
-          <label for="floatingInput">Confirmação de Email</label>
+          <input type="email" class="form-control" id="inputEmailVer" placeholder="name@example.com">
+          <label for="inputEmailVer">Confirmação de Email</label>
         </div>
         <div class="form-floating col-md-6">
           <input type="password" class="form-control" id="floatingPassword" placeholder="Password">

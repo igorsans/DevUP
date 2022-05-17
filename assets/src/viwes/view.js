@@ -1,7 +1,13 @@
 // ola eu sou sua viwer
 $('#footer').load("https://igorsans.github.io/DevUP/assets/pages/elements/footer.html")
 
-
+//cadastro na tela
+function nameNaTela(id){
+    $(id).attr("class", "form-control is-valid");
+}
+function errorName(id){
+    $(id).attr("class", "form-control is-invalid");
+}
 // cep na tela
 function thinking() {
     $("#inputRua").val("...");
@@ -12,10 +18,14 @@ function replace(dados) {
     $("#inputRua").attr("readonly", "true");
     $("#inputEstado").val(dados.localidade);
     $("#inputEstado").attr("readonly", "true");
+    $("#inputCep").attr("class", "form-control is-valid");
 }
 function limpa_formulário_cep() {
     $("#inputRua").val("");
     $("#inputRua").removeAttr( "readonly","true");
     $("#inputEstado").val("");
     $("#inputEstado").removeAttr( "readonly","true");
+}
+function cepNotFound(){
+    $("#inputCep").attr("class", "form-control is-invalid");
 }
