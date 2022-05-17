@@ -4,68 +4,57 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/planos.css">
     <title>Planos</title>
+    <!-- BOOTSTRAP CSS -->
+    <!-- Uma das especificidades do BOOTSTRAP é o JQuery -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!-- <link rel="stylesheet" href="css/style.css"> -->
+
+    <!-- PUXANDO BIBLIOTECAS -->
+    <!-- JQuery Minifield // Versão que tem tudo necessário para trabalhar -->
+    <script
+    src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+    crossorigin="anonymous"></script>
+    <!-- POPPER // JS // -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <!-- BOOTSTRAP SCRIPT -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <!-- SCRIPT FONT AWESOME -->
+    <script src="https://kit.fontawesome.com/32e33b27f8.js" crossorigin="anonymous"></script>
+    <!-- SCRIPT PROGRESS BAR // DISTRIBUIÇÃO: GITHUB -->
+    <!-- <script src="./javascript/progressbar.min.js"></script> -->
+    <!-- SCRIPT PARALLAX // DISTRIBUIÇÃO: GITHUB -->
+    <script src="https://cdn.jsdelivr.net/parallax.js/1.4.2/parallax.min.js"></script>
 </head>
-<body>
-  <!-- <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="#">DevUP</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarCollapse">
-        <ul class="navbar-nav me-auto mb-2 mb-md-0">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link active" href="#">quem somos</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link active" href="#">produtos</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link active d-flex" href="#">login</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link active d-flex" href="#">cadastra-se</a>
-          </li>
-        </ul>
+<body> 
+    <main>
+      <div>
+        <h1>PLANOS</h1>
+        <p>conheça nossos planos</p>
+      </div>
+      <div class="planos">
+        <div class="planosPreco">
+          <p class="textoPlanos">light</p>
+          <p class="itens">2 PRODUTOS</p>
+          <button type="submit" id="btnAssinar1">assinar</button>
+        </div>
+        <div class="planosPreco">
+          <p class="textoPlanos">pro</p>
+          <p class="itens">4 PRODUTOS</p>
+          <button type="submit" id="btnAssinar2">assinar</button>
+        </div>
+        <div class="planosPreco">
+          <p class="textoPlanos">premium</p>
+          <p class="itens">5 PRODUTOS</p>
+          <button type="submit" id="btnAssinar3">assinar</button>
         </div>
       </div>
-  </nav>   -->
-  <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
-    <symbol id="check" viewBox="0 0 16 16">
-      <title>Check</title>
-      <path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z"/>
-    </symbol>
-  </svg>
-  
-  <div class="container py-3">
-    <header>
-      <div class="d-flex flex-column flex-md-row align-items-center pb-3 mb-4 border-bottom">
-        <a href="/" class="d-flex align-items-center text-dark text-decoration-none">
-          <svg xmlns="http://www.w3.org/2000/svg" width="40" height="32" class="me-2" viewBox="0 0 118 94" role="img"><title>Bootstrap</title><path fill-rule="evenodd" clip-rule="evenodd" d="M24.509 0c-6.733 0-11.715 5.893-11.492 12.284.214 6.14-.064 14.092-2.066 20.577C8.943 39.365 5.547 43.485 0 44.014v5.972c5.547.529 8.943 4.649 10.951 11.153 2.002 6.485 2.28 14.437 2.066 20.577C12.794 88.106 17.776 94 24.51 94H93.5c6.733 0 11.714-5.893 11.491-12.284-.214-6.14.064-14.092 2.066-20.577 2.009-6.504 5.396-10.624 10.943-11.153v-5.972c-5.547-.529-8.934-4.649-10.943-11.153-2.002-6.484-2.28-14.437-2.066-20.577C105.214 5.894 100.233 0 93.5 0H24.508zM80 57.863C80 66.663 73.436 72 62.543 72H44a2 2 0 01-2-2V24a2 2 0 012-2h18.437c9.083 0 15.044 4.92 15.044 12.474 0 5.302-4.01 10.049-9.119 10.88v.277C75.317 46.394 80 51.21 80 57.863zM60.521 28.34H49.948v14.934h8.905c6.884 0 10.68-2.772 10.68-7.727 0-4.643-3.264-7.207-9.012-7.207zM49.948 49.2v16.458H60.91c7.167 0 10.964-2.876 10.964-8.281 0-5.406-3.903-8.178-11.425-8.178H49.948z" fill="currentColor"></path></svg>
-          <span class="fs-4">Pricing example</span>
-        </a>
-  
-        <nav class="d-inline-flex mt-2 mt-md-0 ms-md-auto">
-          <a class="me-3 py-2 text-dark text-decoration-none" href="#">Features</a>
-          <a class="me-3 py-2 text-dark text-decoration-none" href="#">Enterprise</a>
-          <a class="me-3 py-2 text-dark text-decoration-none" href="#">Support</a>
-          <a class="py-2 text-dark text-decoration-none" href="#">Pricing</a>
-        </nav>
-      </div>
-  
-      <div class="pricing-header p-3 pb-md-4 mx-auto text-center">
-        <h1 class="display-4 fw-normal">PLANOS</h1>
-        <p class="fs-5 text-muted">Confira nossos planos</p>
-      </div>
-    </header>
-  
-    <main>
-      <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
+      <h2>entre para a fila de espera <br>PROMOCIONAL</h2>
+      <button type="submit" id="btnplanos">inscreva-se</button>
+      <!-- <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
+
         <div class="col">
           <div class="card mb-4 rounded-3 shadow-sm">
             <div class="card-header py-3">
@@ -108,9 +97,10 @@
             </div>
           </div>
         </div>
-      </div>
+      </div> -->
     </main>
-  </div>
+  <footer id="footer"></footer>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
  <script src="../src/viwes/view.js"></script>
 </body>
 </html>

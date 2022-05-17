@@ -1,0 +1,17 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.planos{
+    display: flex;
+    flex-direction:row;
+    justify-content:space-around;
+}
+
+.planosPreco{
+    width: 323px;
+    height: 497px;
+    background: #CACACA;
+    border-radius: 20px;
+}
