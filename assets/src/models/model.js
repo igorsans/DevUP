@@ -22,15 +22,15 @@ function validaEmail(){
     const email= $("#inputEmail").val()
     console.log(email.length);
     if(email == ""){
-        alert("preencha os campos")
+        errorEmail()
     } else {
         const contemArro = /@/
         if(!contemArro.test(email)) {
-            return alert("não é um email")
+            errorEmail()
         } else if (email.length < 8){
-            alert('ta pequeno ainda')
+            errorEmail()
         } else {
-            alert("email valido")
+            emailNaTela()
         }
     }
 }
@@ -38,9 +38,9 @@ function validaEmailVer(){
     const email = $("#inputEmail").val()
     const emailVer = $("#inputEmailVer").val()
     if (email !== emailVer){
-        alert("emails não coincidem")
+        EmailErroVerNaTela()
     } else {
-        alert("ok")
+        emailVerNaTela()
     }
 }
 

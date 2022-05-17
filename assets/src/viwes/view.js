@@ -8,6 +8,18 @@ function nameNaTela(id){
 function errorName(id){
     $(id).attr("class", "form-control is-invalid");
 }
+function errorEmail(){
+    $("#inputEmail").attr("class", "form-control is-invalid");
+}
+function emailNaTela() {
+    $("#inputEmail").attr("class", "form-control is-valid");
+}
+function EmailErroVerNaTela(){
+    $("#inputEmailVer").attr("class", "form-control is-invalid");
+}
+function emailVerNaTela() {
+    $("#inputEmailVer").attr("class", "form-control is-valid");
+}
 // cep na tela
 function thinking() {
     $("#inputRua").val("...");
