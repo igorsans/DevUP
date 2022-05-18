@@ -1,7 +1,19 @@
 // ola, eu sou sua controller!
 
 // verifica se o usuario está logado ou não
-// $('#')
+try {
+    let nomeUser = localStorage.getItem('usuarioNome');
+    let nickUser = localStorage.getItem('usuarioNick');
+    let emailUser = localStorage.getItem('usuarioEmail');
+    let senhaUser = localStorage.getItem('usuarioSenha');
+    if(nomeUser == null || nickUser == null || emailUser == null || senhaUser == null) throw new Error("não esta logado");
+        alert('está logado')
+        console.log(nomeUser,nickUser,emailUser,senhaUser);
+    
+} catch (e) {
+    alert(e)
+    console.error(e)
+}
 
 
 // verificador de cadastro
@@ -19,7 +31,7 @@ $("#inputNumero").blur(() => {
     return validaElement("#inputNumero", "#numeroInvalido", 1)
 })
 // Vê RG
-$("#inputRG").blur(()=> {
+$("#inputRG").blur(() => {
     return validaRG()
 })
 // Vê e-mail

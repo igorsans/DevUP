@@ -1,5 +1,7 @@
 // ola eu sou sua viwer
 $('#footer').load("https://igorsans.github.io/DevUP/assets/pages/elements/footer.html")
+$('#headerNav').load("https://igorsans.github.io/DevUP/assets/pages/elements/header.html")
+
 
 // mostra na tela forms
 function mostraNaTela(divid, valid, invalidDiv, text) {
