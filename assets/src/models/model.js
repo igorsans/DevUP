@@ -1,4 +1,17 @@
 // ola eu sou sua model
+function verificaLogado(){
+    try {
+        let nomeUser = localStorage.getItem('usuarioNome');
+        let nickUser = localStorage.getItem('usuarioNick');
+        let emailUser = localStorage.getItem('usuarioEmail');
+        let senhaUser = localStorage.getItem('usuarioSenha');
+        if(nomeUser == null || nickUser == null || emailUser == null || senhaUser == null) throw new Error("não esta logado");
+        
+    } catch (e) {
+        alert(e)
+        console.error(e)
+    }
+}
 
 //verificador de cadastro
 function verificaCadastro() {
