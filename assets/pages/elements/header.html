@@ -4,15 +4,9 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>iMovi</title>
+    <title>DevUP</title>
     <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
-    <!-- Google fonts Lato -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
-      rel="stylesheet"
-    />
+    <link rel="stylesheet" href="../../css/elements/header.css">
     <!-- CSS Bootstrap -->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
@@ -36,28 +30,35 @@
   </head>
   <body class="home">
     <header>
+
+        <!-- NAVBAR -->
+
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <div class="container-fluid">
+            <div class="container-fluid" id="container">
               <a class="navbar-brand" href="#">
-                  <img src="../../images/devup.png" alt="" width="200px" height="90px">
+                  <img src="../../images/devup.png" alt="" width="200px" height="90px" id="imagelogo">
               </a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
-              <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <div class="mx-auto collapse navbar-collapse" id="navbarSupportedContent" style="width:200px;">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0" id="navbar-products">
                   <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    <a class="nav-link active" aria-current="page" href="#">home</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">About</a>
+                    <a class="nav-link" href="../about.html">about</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="../about.html">planos</a>
                   </li>
                   <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                      Produtos
+                      produtos
                     </a>
                     <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                       <li><a class="dropdown-item" href="#">Produto foda</a></li>
+                      <li><a class="dropdown-item" href="#">Outro produto foda</a></li>
                       <li><a class="dropdown-item" href="#">Outro produto foda</a></li>
                       <li><hr class="dropdown-divider"></li>
                       <li><a class="dropdown-item" href="#">Ver todos produtos</a></li>
@@ -68,16 +69,17 @@
                   </li>
                 </ul>
                 <form class="d-flex" style="margin-right: 20px">
-                 <p><a href="">Cadastre-se</a></p>
+                 <button class="btn-form"><p><a class="p1" href="../cadastro.html"><i class="bi bi-box-arrow-in-left"></i>cadastre-se</a></p></button>
                 </form>
                 <form class="d-flex" style="margin-right: 20px">
-                    <p><a href="">Login</a></p>
+                    <button class="btn-form"><p><a class="p2" href="../login.html"><i class="bi bi-person-circle"></i>login</a></p></button>
                    </form>
               </div>
             </div>
           </nav>
     </header>
   </body>
+
 </html>
 
 
