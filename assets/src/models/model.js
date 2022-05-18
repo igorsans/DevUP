@@ -15,7 +15,15 @@ function verificaCadastro() {
     ) {
         console.log("falta algo");
     } else {
-        window.location.href = "../../index.html"
+        const nome = $("#inputName").val()
+        const nick = $("#inputNick").val()
+        const email = $("#inputEmail").val()
+        const senha = $("#inputSenha").val()
+        localStorage.setItem('usuarioNome', nome);
+        localStorage.setItem('usuarioNick', nick);
+        localStorage.setItem('usuarioEmail', email);
+        localStorage.setItem('usuarioSenha', senha);
+        // window.location.href = "../../index.html"
     }
     console.log(validaCep());
 }
