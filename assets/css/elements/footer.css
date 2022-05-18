@@ -3,7 +3,16 @@
     color: gray;
 }
 
-i {
-    color: #1764ff;
+/* i {
+    color: #000000;
     font-size: 20px;
+} */
+
+
+.icon-socialfield {
+    color: blue;
+    font-size: 20px;
+
 }
+
+
