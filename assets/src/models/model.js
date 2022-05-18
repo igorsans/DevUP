@@ -6,8 +6,9 @@ function verificaLogado(){
         let emailUser = localStorage.getItem('usuarioEmail');
         let senhaUser = localStorage.getItem('usuarioSenha');
         if(nomeUser == null || nickUser == null || emailUser == null || senhaUser == null) throw new Error("não esta logado");
-        
+        usuarioLogado('https://igorsans.github.io/DevUP/assets/pages/elements/usuarioLogado.html')
     } catch (e) {
+        usuarioLogado('https://igorsans.github.io/DevUP/assets/pages/elements/usuarioDeslogado.html')
         alert(e)
         console.error(e)
     }
