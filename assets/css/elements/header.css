@@ -23,8 +23,13 @@
 p a {
     text-decoration: none;
     font-weight: 400;
-    color: lightslategray;
+    color: #fff;
     font-size: 18px;
+
+}
+
+p a:hover {
+    color: #fff;
 
 }
 
@@ -46,14 +51,26 @@ p a {
     padding-top: 5px;
     padding-bottom: 5px;
     height: 40px;
-    width: 180px;
+    width: 205px;
     text-align: center;
+    background: #1764ff;
 
 }
 
 i {
-    color: rgb(27, 25, 25);
+    color: #fff;
     padding: 15px;
     font-size: 20px;
 }
 
+.btn-form2{
+    border: none;
+    border-radius: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    height: 40px;
+    width: 150px;
+    text-align: center;
+    background: #1764ff;
+
+}
