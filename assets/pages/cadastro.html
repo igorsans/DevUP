@@ -32,7 +32,14 @@
           Por favor digite o seu sobrenome.
         </div>
       </div>
-      <div class="col-md-3">
+      <div class="col-md-6">
+        <label for="inputRG" class="form-label">RG*</label>
+        <input type="text" class="form-control" id="inputRG" required>
+        <div id="rgInvalido"class="invalid-feedback">
+          RG invalido!
+        </div>
+      </div>
+      <div class="col-md-6">
         <label for="inputCep" class="form-label">Cep*</label>
         <input type="text" class="form-control" id="inputCep" required>
         <div id="cepInvalido"class="invalid-feedback">
@@ -40,19 +47,23 @@
         </div>
       </div>
       <div class="col-md-4">
+        <label for="inputEstado" class="form-label">Estado</label>
+        <input type="text" class="form-control" id="inputEstado">
+      </div>
+      <div class="col-md-4">
+        <label for="inputBairro" class="form-label">Bairro</label>
+        <input type="text" class="form-control" id="inputBairro">
+      </div>
+      <div class="col-md-4">
+        <label for="inputRua" class="form-label">Rua</label>
+        <input type="text" class="form-control" id="inputRua">
+      </div>
+      <div class="col-md-6">
         <label for="inputNumero" class="form-label">Número*</label>
         <input type="text" class="form-control" id="inputNumero" required>
         <div id="numeroInvalido"class="invalid-feedback">
           Numero invalido!
         </div>
-      </div>
-      <div class="col-md-5">
-        <label for="inputEstado" class="form-label">Estado</label>
-        <input type="text" class="form-control" id="inputEstado">
-      </div>
-      <div class="col-md-6">
-        <label for="inputRua" class="form-label">Rua</label>
-        <input type="text" class="form-control" id="inputRua">
       </div>
       <div class="col-md-6">
         <label for="inputComplemento" class="form-label">Complemento</label>
@@ -89,7 +100,7 @@
           </div>
         </div>
       </div>
-      <div class="col-12">
+      <div class="col-2">
         <button type="submit" id="btnCadastro" class="btn btn-primary">Sign in</button>
       </div>
       <div class="col-12">

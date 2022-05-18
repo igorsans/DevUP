@@ -18,6 +18,10 @@ $("#inputNick").blur(() => {
 $("#inputNumero").blur(() => {
     return validaElement("#inputNumero", "#numeroInvalido", 1)
 })
+// Vê RG
+$("#inputRG").blur(()=> {
+    return validaRG()
+})
 // Vê e-mail
 $("#inputEmail").blur(() => {
     return validaEmail()

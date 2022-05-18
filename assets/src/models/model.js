@@ -10,11 +10,12 @@ function verificaCadastro() {
         validaEmail() != true ||
         compara('#inputEmail', '#inputEmailVer', '#emailVerInvalido', 'Emails') != true ||
         validaSenha() != true ||
-        compara('#inputSenha', '#inputVerSenha', '#senhaVerInvalida', 'Senhas') != true
+        compara('#inputSenha', '#inputVerSenha', '#senhaVerInvalida', 'Senhas') != true ||
+        validaRG() != true
     ) {
         console.log("falta algo");
     } else {
-        alert('foi')
+        window.location.href = "../../index.html"
     }
     console.log(validaCep());
 }
@@ -79,6 +80,21 @@ function validaSenha() {
             }
         }
     }
+}
+//RG
+function validaRG(){
+    const rg = $("#inputRG").val()
+    if (rg == ""){
+        return mostraNaTela('#inputRG', 'invalid', '#rgInvalido', 'Campo Vazio!')
+    } else {
+        const validaRg = /^[0-9]{9}$/;
+        if (validaRg.test(rg)) {
+            mostraNaTela('#inputRG', 'valid')
+            return true
+    } else {
+        return mostraNaTela('#inputRG', 'invalid', '#rgInvalido', 'RG invalido!')
+    }
+}
 }
 // Cep
 function buscaCep() {
