@@ -2,7 +2,10 @@
 $('#footer').load("https://igorsans.github.io/DevUP/assets/pages/elements/footer.html")
 $('#headerNav').load("https://igorsans.github.io/DevUP/assets/pages/elements/header.html")
 
-
+function usuarioLogado(local){
+    $('#usuario').load(local)
+    alert('usuario ?')
+}
 // mostra na tela forms
 function mostraNaTela(divid, valid, invalidDiv, text) {
     $(divid).attr("class", `form-control is-${valid}`);
