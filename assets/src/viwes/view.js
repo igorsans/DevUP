@@ -4,7 +4,6 @@ $('#headerNav').load("https://igorsans.github.io/DevUP/assets/pages/elements/hea
 
 function usuarioLogado(local){
     $('#usuario').load(local)
-    alert('usuario ?')
 }
 // mostra na tela forms
 function mostraNaTela(divid, valid, invalidDiv, text) {
