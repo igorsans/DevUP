@@ -26,70 +26,81 @@
         </div>
       </div>
       <div class="form-floating col-md-6">
-        <input class="form-control" id="inputNick" type="text" placeholder="Default input" aria-label="default input example">
+        <input class="form-control" id="inputNick" type="text" placeholder="Default input" aria-label="default input example" required>
         <label for="inputNick">Sobrenome*</label>
         <div id="nickInvalido"class="invalid-feedback">
           Por favor digite o seu sobrenome.
         </div>
       </div>
-      <div class="col-md-3">
+      <div class="col-md-6">
+        <label for="inputRG" class="form-label">RG*</label>
+        <input type="text" class="form-control" id="inputRG" required>
+        <div id="rgInvalido"class="invalid-feedback">
+          RG invalido!
+        </div>
+      </div>
+      <div class="col-md-6">
         <label for="inputCep" class="form-label">Cep*</label>
-        <input type="text" class="form-control" id="inputCep">
+        <input type="text" class="form-control" id="inputCep" required>
         <div id="cepInvalido"class="invalid-feedback">
           Cep invalido!
         </div>
       </div>
       <div class="col-md-4">
-        <label for="inputCity" class="form-label">Número*</label>
-        <input type="text" class="form-control" id="inputNumero">
+        <label for="inputEstado" class="form-label">Estado</label>
+        <input type="text" class="form-control" id="inputEstado">
+      </div>
+      <div class="col-md-4">
+        <label for="inputBairro" class="form-label">Bairro</label>
+        <input type="text" class="form-control" id="inputBairro">
+      </div>
+      <div class="col-md-4">
+        <label for="inputRua" class="form-label">Rua</label>
+        <input type="text" class="form-control" id="inputRua">
+      </div>
+      <div class="col-md-6">
+        <label for="inputNumero" class="form-label">Número*</label>
+        <input type="text" class="form-control" id="inputNumero" required>
         <div id="numeroInvalido"class="invalid-feedback">
           Numero invalido!
         </div>
       </div>
-      <div class="col-md-5">
-        <label for="inputCity" class="form-label">Estado</label>
-        <input type="text" class="form-control" id="inputEstado">
-      </div>
       <div class="col-md-6">
-        <label for="inputCity" class="form-label">Rua</label>
-        <input type="text" class="form-control" id="inputRua">
-      </div>
-      <div class="col-md-6">
-        <label for="inputCity" class="form-label">Complemento</label>
-        <input type="text" class="form-control" id="inputCity">
+        <label for="inputComplemento" class="form-label">Complemento</label>
+        <input type="text" class="form-control" id="inputComplemento">
       </div>
       
       <div class="row g-3" style="margin: auto; margin-top: 50px; margin-bottom: 50px;">
         <div class="form-floating mb-3 col-md-6">
-          <input type="email" class="form-control" id="inputEmail" placeholder="name@example.com">
+          <input type="email" class="form-control" id="inputEmail" placeholder="name@example.com" required>
           <label for="inputEmail">Email*</label>
           <div id="emailInvalido"class="invalid-feedback">
             Email invalido!
           </div>
         </div>
         <div class="form-floating mb-3 col-md-6">
-          <input type="email" class="form-control" id="inputEmailVer" placeholder="name@example.com">
+          <input type="email" class="form-control" id="inputEmailVer" placeholder="name@example.com" required>
           <label for="inputEmailVer">Confirmação de Email*</label>
           <div id="emailVerInvalido"class="invalid-feedback">
             Email não coincidem!
           </div>
         </div>
         <div class="form-floating col-md-6">
-          <input type="password" class="form-control" id="inputSenha" placeholder="Password">
+          <input type="password" class="form-control" id="inputSenha" placeholder="Password"required>
           <label for="inputSenha">Senha*</label>
           <div id="senhaInvalida" class="invalid-feedback">
             Campo Vazio!
           </div>
         </div>
         <div class="form-floating col-md-6">
-          <input type="password" class="form-control" id="inputVerSenha" placeholder="Password">
+          <input type="password" class="form-control" id="inputVerSenha" placeholder="Password"required>
           <label for="inputVerSenha">Confirmação de senha*</label>
           <div id="senhaVerInvalida" class="invalid-feedback">
             Campo Vazio!
           </div>
         </div>
       </div>
-      <div class="col-12">
+      <div class="col-2">
         <button type="submit" id="btnCadastro" class="btn btn-primary">Sign in</button>
       </div>
       <div class="col-12">
