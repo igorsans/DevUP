@@ -17,7 +17,7 @@
 </head>
 <body>
   <div style="width: 600px; margin: auto">
-    <form class="row g-3 needs-validation" novalidate action="javascript:alert( 'success!' )">
+    <form class="row g-3 needs-validation" novalidate action="javascript:verificaCadastro()">
       <div class="form-floating col-md-6">
         <input class="form-control" id="inputName" type="text" placeholder="Default input" aria-label="default input example" required>
         <label for="inputName">Nome*</label>
@@ -42,6 +42,9 @@
       <div class="col-md-4">
         <label for="inputCity" class="form-label">Número*</label>
         <input type="text" class="form-control" id="inputNumero">
+        <div id="numeroInvalido"class="invalid-feedback">
+          Numero invalido!
+        </div>
       </div>
       <div class="col-md-5">
         <label for="inputCity" class="form-label">Estado</label>
