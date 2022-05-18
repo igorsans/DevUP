@@ -9,19 +9,27 @@ $('#btnCadastro').click(()=>{
     verificaCadastro()
 })
 $("#inputName").blur(()=>{
-    validaNome("#inputName")
+    validaElement("#inputName","#nameInvalido",2,undefined)
 })
 $("#inputNick").blur(()=>{
-    validaNome("#inputNick")
+    validaElement("#inputNick","#nickInvalido",2,undefined)
 })
 // Vê e-mail
 $("#inputEmail").blur(() => {
     validaEmail()
    })
-   // Vê e-mail
+// Vê e-mail igual
 $("#inputEmailVer").blur(() => {
-    validaEmailVer()
+    compara('#inputEmail','#inputEmailVer','#emailVerInvalido','Emails')
    })
+// vê senha
+$('#inputSenha').blur(()=>{
+    validaSenha()
+})
+//vê senha igual
+$('#inputVerSenha').blur(()=>{
+    compara('#inputSenha','#inputVerSenha','#senhaVerInvalida','Senhas')
+})
 // Vê Cep
 $( "#inputCep" ).blur(() => {
    return buscaCep()
