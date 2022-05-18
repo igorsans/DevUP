@@ -1,8 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500&display=swap');
+
 *{
     margin: 0px;
     padding: 0px;
+    box-sizing: border-box;
+}
+main{
+    line-height: 24px;
 }
 
+.divTitulo{ 
+    text-align: center;
+    padding: 30px;
+    color: #4A4545;
+}
+h1{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    padding-bottom: 15px;
+}
+.subtitulo{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+}
 .planos{
     display: flex;
     flex-direction:row;
@@ -10,8 +34,34 @@
 }
 
 .planosPreco{
+    text-align: center;
     width: 323px;
     height: 497px;
     background: #CACACA;
     border-radius: 20px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    color: #4A4545;
+}
+.btnAssinar{
+    /* font-family: 'DM Sans'; */
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    color: #000000;
+    background: #C4C4C4;
+    border-radius: 10px;
+    border: 3px solid #C4C4C4;
+}
+.tituloBtn{
+    text-align: center;
+}
+h2{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    color: #000000;
 }
