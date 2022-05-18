@@ -17,31 +17,34 @@
 </head>
 <body>
   <div style="width: 600px; margin: auto">
-    <form class="row g-3 needs-validation" novalidate action="javascript:alert( 'success!' )">
+    <form class="row g-3 needs-validation" novalidate action="javascript:verificaCadastro()">
       <div class="form-floating col-md-6">
         <input class="form-control" id="inputName" type="text" placeholder="Default input" aria-label="default input example" required>
         <label for="inputName">Nome*</label>
-        <div class="invalid-feedback">
+        <div id="nameInvalido" class="invalid-feedback">
           Por favor digite o seu nome.
         </div>
       </div>
       <div class="form-floating col-md-6">
         <input class="form-control" id="inputNick" type="text" placeholder="Default input" aria-label="default input example">
-        <label for="inputNick">Sobrenome</label>
-        <div class="invalid-feedback">
+        <label for="inputNick">Sobrenome*</label>
+        <div id="nickInvalido"class="invalid-feedback">
           Por favor digite o seu sobrenome.
         </div>
       </div>
       <div class="col-md-3">
-        <label for="inputCep" class="form-label">Cep</label>
+        <label for="inputCep" class="form-label">Cep*</label>
         <input type="text" class="form-control" id="inputCep">
-        <div class="invalid-feedback">
+        <div id="cepInvalido"class="invalid-feedback">
           Cep invalido!
         </div>
       </div>
       <div class="col-md-4">
-        <label for="inputCity" class="form-label">Número</label>
+        <label for="inputCity" class="form-label">Número*</label>
         <input type="text" class="form-control" id="inputNumero">
+        <div id="numeroInvalido"class="invalid-feedback">
+          Numero invalido!
+        </div>
       </div>
       <div class="col-md-5">
         <label for="inputCity" class="form-label">Estado</label>
@@ -59,19 +62,31 @@
       <div class="row g-3" style="margin: auto; margin-top: 50px; margin-bottom: 50px;">
         <div class="form-floating mb-3 col-md-6">
           <input type="email" class="form-control" id="inputEmail" placeholder="name@example.com">
-          <label for="inputEmail">Email</label>
+          <label for="inputEmail">Email*</label>
+          <div id="emailInvalido"class="invalid-feedback">
+            Email invalido!
+          </div>
         </div>
         <div class="form-floating mb-3 col-md-6">
           <input type="email" class="form-control" id="inputEmailVer" placeholder="name@example.com">
-          <label for="inputEmailVer">Confirmação de Email</label>
+          <label for="inputEmailVer">Confirmação de Email*</label>
+          <div id="emailVerInvalido"class="invalid-feedback">
+            Email não coincidem!
+          </div>
         </div>
         <div class="form-floating col-md-6">
-          <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
-          <label for="floatingPassword">Senha</label>
+          <input type="password" class="form-control" id="inputSenha" placeholder="Password">
+          <label for="inputSenha">Senha*</label>
+          <div id="senhaInvalida" class="invalid-feedback">
+            Campo Vazio!
+          </div>
         </div>
         <div class="form-floating col-md-6">
-          <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
-          <label for="floatingPassword">Confirmação de senha</label>
+          <input type="password" class="form-control" id="inputVerSenha" placeholder="Password">
+          <label for="inputVerSenha">Confirmação de senha*</label>
+          <div id="senhaVerInvalida" class="invalid-feedback">
+            Campo Vazio!
+          </div>
         </div>
       </div>
       <div class="col-12">
