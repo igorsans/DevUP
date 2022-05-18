@@ -2,7 +2,7 @@
 $('#footer').load("https://igorsans.github.io/DevUP/assets/pages/elements/footer.html")
 
 // mostra na tela forms
-function mostraNaTela(divid,valid,invalidDiv,text){
+function mostraNaTela(divid, valid, invalidDiv, text) {
     $(divid).attr("class", `form-control is-${valid}`);
     $(invalidDiv).text(text)
 }
@@ -20,7 +20,7 @@ function replace(dados) {
 }
 function limpa_formulário_cep() {
     $("#inputRua").val("");
-    $("#inputRua").removeAttr( "readonly","true");
+    $("#inputRua").removeAttr("readonly", "true");
     $("#inputEstado").val("");
-    $("#inputEstado").removeAttr( "readonly","true");
+    $("#inputEstado").removeAttr("readonly", "true");
 }
