@@ -3,18 +3,3 @@
     padding: 0;
     font-family: 'Poppins', sans-serif;
 }
-
-.titulos {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
-}
-
-
-#footer {
-    bottom: 0;
-    left: 0;
-    width: 100%;
-}
-
