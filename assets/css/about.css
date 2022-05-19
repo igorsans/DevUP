@@ -28,8 +28,33 @@
     padding-bottom: 15px;
 }
 
-/* .cards-section{
-    width: 50%;
-    margin: 0% 25%;
-    padding-top: 30px;
-} */
+.cards-section {
+    margin: auto;
+    padding-top: 20px;
+
+
+}
+
+.innovate{
+    font-weight: bold;
+    color: rgb(24, 24, 24);
+}
+
+.parallax {
+/* The image used */
+background-image: url("../images/bg2.svg");
+      
+/* Set a specific height */
+min-height: 600px; 
+      
+/* Create the parallax scrolling effect */
+background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+
+
+/* global settings */
+
+padding-top: 20px;
+}
