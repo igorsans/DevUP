@@ -9,15 +9,22 @@
 .divPrincipal{
    margin: 0% 30%;
    border: 2px solid black;
+   text-align: center;
+   width: 565px;
+   height: 303px;
+   background-color: rgba(255, 255, 255, 0.87);
+   border-radius: 15px;
 }
 .mb-3{
-    padding: 25px;
+    padding: 15px;
 }
+.mb-4{
+    padding: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 
-/* #btnRecuperacao{
-
-} */
-
-.form-label{
-    text-align: center;
+}
+.btnRecuperacao{
+    border: 2px solid black;
 }
