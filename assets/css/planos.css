@@ -1,9 +1,21 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500&display=swap');
-
 *{
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+}
+main{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+}
+.textoBtn{
+    text-align: center;
+    font-weight: 500;
+    font-size: 25px;
+}
+.btnInscrever{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
 .bd-placeholder-img {
     font-size: 1.125rem;
