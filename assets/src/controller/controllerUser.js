@@ -11,5 +11,6 @@ function identificar(id){
 }
 function deslogar(){
     localStorage.clear
+    document.location.reload(true)
 }
 
