@@ -35,11 +35,6 @@ class Cadastro {
             return 'invalid'
         }
     }
-    criar(e, obj) {
-        e.preventDefault()
-        this._name = obj._name.val()
-        console.log(this.nome);
-    }
 }
 class Form {
     constructor() {
