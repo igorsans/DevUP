@@ -24,7 +24,7 @@
 .p-about{
     text-align: center;
     padding-top:20px;
-    font-size: 20px;
+    font-size: 15px;
     padding-bottom: 15px;
 }
 
@@ -77,4 +77,14 @@ padding-top: 20px;
 
 .p-agile {
     text-align: center;
+}
+
+.card-body{
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.card-body:hover {
+    transform: scale(1.1);
+    transition: all 0.5s;
 }
