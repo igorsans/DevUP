@@ -9,6 +9,9 @@
 }
 .card-body{
      padding-top: 20px;
+     display:flex;
+     flex-direction: column;
+     justify-content: space-between;
 }
 #card{
     background-color: #c4c4c415;
