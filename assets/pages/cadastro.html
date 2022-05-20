@@ -79,15 +79,15 @@
       </div>
       <div class="col-md-4">
         <label for="inputEstado" class="form-label">Estado</label>
-        <input type="text" class="form-control" id="inputEstado">
+        <input type="text" class="form-control" id="inputEstado" readonly="readonly">
       </div>
       <div class="col-md-4">
         <label for="inputBairro" class="form-label">Bairro</label>
-        <input type="text" class="form-control" id="inputBairro">
+        <input type="text" class="form-control" id="inputBairro" readonly="readonly">
       </div>
       <div class="col-md-4">
         <label for="inputRua" class="form-label">Rua</label>
-        <input type="text" class="form-control" id="inputRua">
+        <input type="text" class="form-control" id="inputRua" readonly="readonly">
       </div>
       <div class="col-md-6">
         <label for="inputNumero" class="form-label">Número*</label>
@@ -131,8 +131,11 @@
           </div>
         </div>
       </div>
-      <div class="col-2">
-        <button type="submit" id="btnCadastro" class="btn btn-primary">Sign in</button>
+      <div class="col-8">
+        <button type="submit" id="btnCadastro" class="btn btn-primary form-control">Sign in</button>
+        <div id="senhaVerInvalida" class="invalid-feedback">
+          Campos * precisam ser preenchidos corretamente!
+        </div>
       </div>
       <div class="col-12">
         <div class="form-check">
@@ -147,11 +150,11 @@
 
   <div id="footer"></div>
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-  <!-- <script src="../src/viwes/viewC.js"></script>
   <script src="../src/models/cadastroM.js"></script>
-  <script src="../src/controller/cadastroC.js"></script> -->
+  <script src="../src/viwes/cadastroV.js"></script>
+  <script src="../src/controller/cadastroC.js"></script>
 
-  <script src="../src/models/model.js"></script>
+  <script src="../src/models/modelt.js"></script>
   <script src="../src/viwes/view.js"></script>
   <script src="../src/controller/controller.js"></script>
 </body>

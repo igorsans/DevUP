@@ -1,10 +1,10 @@
 const form = new Form
-const cadastro = new Cadastro
 const viwer = new Viwer
 
-$("#btnCadastro").click((e)=>{
+$(form.Btn).click((e)=>{
     e.preventDefault()
-    cadastro.criar(e,form)
+    const cadastro = new Cadastro
+    viwer.resultCad(form.Btn,cadastro.verificaCad())
 })
 //valida elements
 $(form._name).blur(()=>{
@@ -19,6 +19,11 @@ $(form._nCasa).blur(()=>{
 //valida RG
 $(form._rg).blur(()=>{
     viwer.mostraNaTela(form._rg,form.validaRG(form._rg.val()), form.invalIdRg, form.msg)
+})
+//valida CEP
+$(form._cep).blur(()=>{
+    viwer.thinking(form._rua,form._estado,form._bairro)
+    form.buscaCep(form._cep)
 })
 //valida email
 $(form._email).blur(()=>{
