@@ -13,7 +13,3 @@ class User{
         }
     }
 }
-function verificaLogado(){
-// Ola, seja bem vindo ao projeto, você deve estar se perguntando: o que essa função faz? e a resposta é: segura o projeto, como? não sei
-// mas não tire-me daqui
-}
