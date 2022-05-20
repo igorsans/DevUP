@@ -14,21 +14,21 @@ class User{
         }
     }
 }
-// function verificaLogado(){
-//     try {
-//         let nomeUser = localStorage.getItem('usuarioNome');
-//         let nickUser = localStorage.getItem('usuarioNick');
-//         let emailUser = localStorage.getItem('usuarioEmail');
-//         let senhaUser = localStorage.getItem('usuarioSenha');
-//         if(nomeUser == null || nickUser == null || emailUser == null || senhaUser == null) throw new Error("não esta logado");
-//         // usuarioLogado()
-//         console.log('usuario logado');
-//     } catch (e) {
-//         // usuarioLogado('https://igorsans.github.io/DevUP/assets/pages/elements/usuarioDeslogado.html')
-//         console.log('usuario deslogado');
-//         console.error(e)
-//     }
-// }
+function verificaLogado(){
+    try {
+        let nomeUser = localStorage.getItem('usuarioNome');
+        let nickUser = localStorage.getItem('usuarioNick');
+        let emailUser = localStorage.getItem('usuarioEmail');
+        let senhaUser = localStorage.getItem('usuarioSenha');
+        if(nomeUser == null || nickUser == null || emailUser == null || senhaUser == null) throw new Error("não esta logado");
+        // usuarioLogado()
+        console.log('usuario logado');
+    } catch (e) {
+        // usuarioLogado('https://igorsans.github.io/DevUP/assets/pages/elements/usuarioDeslogado.html')
+        console.log('usuario deslogado');
+        console.error(e)
+    }
+}
 
 
 
