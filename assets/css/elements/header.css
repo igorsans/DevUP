@@ -73,3 +73,17 @@ p a:hover {
     background: #1764ff;
 
 }
+
+/* SCROLL BAR */
+
+::-webkit-scrollbar-track {
+    background-color: #f5f5f5;
+}
+::-webkit-scrollbar {
+    width: 6px;
+    background: #1764ff;
+}
+::-webkit-scrollbar-thumb {
+    background: #1764ff;
+}
+
