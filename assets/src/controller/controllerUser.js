@@ -5,8 +5,11 @@ viwerPage.entregaFooter()
 viwerPage.entregaUser(usuario.verificaLogado1())
 
 function identificar(id){
-    const identnome = localStorage.setItem('nome', nome);
-    const identNick = localStorage.setItem('nick', nick);
+    const identnome = localStorage.getItem('nome');
+    const identNick = localStorage.getItem('nick');
     $(id).text(`${identnome} ${identNick}`)
+}
+function deslogar(){
+    localStorage.clear
 }
 
