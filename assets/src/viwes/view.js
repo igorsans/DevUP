@@ -3,7 +3,6 @@ class ViwerUser{
     constructor(){
         this.header = $('#headerNav')
         this.footer = $('#footer')
-        this.userSpace = $('#usuario')
     }
     entregaFooter(){
         this.footer.load("https://igorsans.github.io/DevUP/assets/pages/elements/footer.html")
@@ -12,12 +11,14 @@ class ViwerUser{
         this.header.load("https://igorsans.github.io/DevUP/assets/pages/elements/header.html")
     }
     entregaUser(userExist){
-        if (userExist) {
-            this.header.load('https://igorsans.github.io/DevUP/assets/pages/elements/usuarioLogado.html')
+        console.log(userExist);
+        if (userExist==true) {
+            console.log(userExist);
+            this.header.load("https://igorsans.github.io/DevUP/assets/pages/elements/usuarioLogado.html")
         } else if (!userExist){
-            this.header.load("https://igorsans.github.io/DevUP/assets/pages/elements/usuarioDeslogado.html")
+            this.header.load("https://igorsans.github.io/DevUP/assets/pages/elements/header.html")
         } else {
-            this.header.load("https://igorsans.github.io/DevUP/assets/pages/elements/usuarioDeslogado.html")
+            this.header.load("https://igorsans.github.io/DevUP/assets/pages/elements/usuarioLogado.html")
         }
     }
 }
