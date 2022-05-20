@@ -1,5 +1,5 @@
 class Cadastro {
-
+a
     constructor(_nameIn, nick,rg,cep,nCasa,email,emailVer,senha,senhaVer){
         this._name = nome
         this._nick = nick
