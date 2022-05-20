@@ -5,6 +5,14 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
     font-style: normal;
+
+}
+.card-body{
+     padding-top: 20px;
+}
+#card{
+    background-color: #c4c4c415;
+    height: 400px;
 }
 .textoBtn{
     text-align: center;
