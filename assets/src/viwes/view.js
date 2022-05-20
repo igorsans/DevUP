@@ -1,11 +1,9 @@
 // ola eu sou sua viwer
 $('#footer').load("https://igorsans.github.io/DevUP/assets/pages/elements/footer.html")
 $('#headerNav').load("https://igorsans.github.io/DevUP/assets/pages/elements/header.html")
-$('#usuario').load("https://igorsans.github.io/DevUP/assets/pages/elements/usuarioDeslogado.html")
-$('#usuario').attr('class','teste')
-$("#usuario").replaceWith( "<h2>New heading</h2>" )
+$('#usuario').load('https://igorsans.github.io/DevUP/assets/pages/elements/usuarioLogado.html')
 function usuarioLogado(){
-    $('#usuario').load('https://igorsans.github.io/DevUP/assets/pages/elements/usuarioLogado.html')
+    $('#usuario').load("https://igorsans.github.io/DevUP/assets/pages/elements/usuarioDeslogado.html")
 }
 // mostra na tela forms
 function mostraNaTela(divid, valid, invalidDiv, text) {

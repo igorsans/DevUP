@@ -1,5 +1,12 @@
 // ola, eu sou sua controller!
 
+class Controler {
+
+}
+
+
+
+
 // verifica se o usuario está logado ou não
 // verificaLogado()
 
