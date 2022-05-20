@@ -58,3 +58,19 @@ background-size: cover;
 
 padding-top: 20px;
 }
+
+#cards{
+    display: flex;
+    justify-content: space-around;
+    padding: auto;
+}
+
+.agile {
+    text-align: center;
+    padding-top: 25px;
+    
+}
+
+.methodology {
+    font-weight: bold;
+}
