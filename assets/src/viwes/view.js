@@ -14,11 +14,11 @@ class ViwerUser{
         console.log(userExist);
         if (userExist==true) {
             console.log(userExist);
-            this.header.load("https://igorsans.github.io/DevUP/assets/pages/elements/usuarioLogado.html")
+            this.header.load("https://igorsans.github.io/DevUP/assets/pages/elements/headerLogado.html")
         } else if (!userExist){
             this.header.load("https://igorsans.github.io/DevUP/assets/pages/elements/header.html")
         } else {
-            this.header.load("https://igorsans.github.io/DevUP/assets/pages/elements/usuarioLogado.html")
+            this.header.load("https://igorsans.github.io/DevUP/assets/pages/elements/headerLogado.html")
         }
     }
 }
