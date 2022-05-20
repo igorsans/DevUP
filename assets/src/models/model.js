@@ -1,4 +1,11 @@
 // ola eu sou sua model
+// class Model {
+    
+// }
+
+
+
+
 function verificaLogado(){
     try {
         let nomeUser = localStorage.getItem('usuarioNome');
