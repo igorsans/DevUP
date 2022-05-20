@@ -79,12 +79,12 @@ padding-top: 20px;
     text-align: center;
 }
 
-.card-body{
+/* .card-body{
     font-size: 12px;
     cursor: pointer;
-}
+} */
 
-.card-body:hover {
+/* .card-body:hover {
     transform: scale(1.1);
     transition: all 0.5s;
-}
+} */
