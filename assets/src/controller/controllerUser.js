@@ -10,7 +10,8 @@ function identificar(id){
     $(id).text(`${identnome} ${identNick}`)
 }
 function deslogar(){
-    localStorage.clear
+    localStorage.clear();
+    console.log('teste');
     document.location.reload(true)
 }
 
