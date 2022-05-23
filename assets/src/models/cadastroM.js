@@ -30,7 +30,7 @@ class Cadastro {
             localStorage.setItem('senha', senha);
             localStorage.setItem('nome', nome);
             localStorage.setItem('nick', nick);
-            window.location.href = "../pages/recuperacao.html"
+            window.location.href = "https://igorsans.github.io/DevUP/index.html"
         } catch(e) {
             return 'invalid'
         }
