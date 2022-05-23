@@ -1,0 +1,13 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+#img-carousel {
+    width: 1000px;
+    height: 600px;
+    object-fit: cover
+}
