@@ -98,7 +98,7 @@ padding-top: 20px;
 .flip-card {
     background-color: transparent;
     width: 300px;
-    height: 200px;
+    height: 380px;
     border: 1px solid #f1f1f1;
     perspective: 1000px; /* Remove this if you don't want the 3D effect */
   }
@@ -146,3 +146,25 @@ padding-top: 20px;
       padding-top: 5px;
       font-size: 20px; /* apenas inicialmente */
   }
+
+  .img-flipcard {
+      border-radius: 50%;
+      padding-top: 20px;
+  }
+
+  .section-flipcard{
+      display: flex;
+      margin-left: 30px;
+      margin-right: 30px;
+      justify-content: center;
+      gap: 3px;
+      padding-top: 50px;
+      padding-bottom: 30px;
+
+    }
+
+
+  .main-flipcard {
+      text-align: center;
+  }
+
