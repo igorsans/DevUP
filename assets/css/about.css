@@ -129,7 +129,7 @@ padding-top: 20px;
   
   /* Style the front side (fallback if image is missing) */
   .flip-card-front {
-    background-color: #bbb;
+    background-color: rgba(73, 70, 70, 0.087);
     color: black;
   }
   
@@ -160,11 +160,36 @@ padding-top: 20px;
       gap: 3px;
       padding-top: 50px;
       padding-bottom: 30px;
+      cursor: pointer;
 
     }
 
 
   .main-flipcard {
       text-align: center;
+      padding: 30px;
   }
 
+  .btn-github i{
+      color: dodgerblue;
+      font-size: 20px;
+
+  }
+
+  .btn-linkedin i {
+      color: dodgerblue;
+      font-size: 20px;
+  }
+
+  .btn-github, .btn-linkedin{
+      border: none;
+      background-color: white;
+      border-radius: 50%;
+      width: 35px;
+      height: 35px;
+      text-align: center;
+  }
+
+  .p-name {
+      font-weight: 600;
+  }
