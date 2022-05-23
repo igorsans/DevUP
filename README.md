@@ -1,2 +1,1 @@
-# DevUP
--
+<h1 align="center">🖱️DevUP</h1>
