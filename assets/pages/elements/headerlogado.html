@@ -1,9 +1,10 @@
+
 <header>
 
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <div class="container-fluid" id="container">
-      <a class="navbar-brand" href="#">
-        <img src="../images/devup.png" alt="" width="200px" height="90px" id="imagelogo">
+      <a class="navbar-brand" href="https://igorsans.github.io/DevUP/index.html">
+        <img src="https://igorsans.github.io/DevUP/assets/images/devup.png" alt="" width="200px" height="90px" id="imagelogo">
       </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -12,40 +13,39 @@
       <div class="mx-auto collapse navbar-collapse" id="navbarSupportedContent" style="width:200px;">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0" id="navbar-products">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">home</a>
+            <a class="nav-link active" aria-current="page" href="https://igorsans.github.io/DevUP/index.html">home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="../about.html">about</a>
+            <a class="nav-link" href="https://igorsans.github.io/DevUP/assets/pages/about.html">about</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="../about.html">planos</a>
+            <a class="nav-link" href="https://igorsans.github.io/DevUP/assets/pages/planos.html">planos</a>
           </li>
+          <li class="nav-item">
           <div class="dropdown">
             <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton2" data-bs-toggle="dropdown" aria-expanded="false">
               Produtos
             </button>
             <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="dropdownMenuButton2">
-              <li><a class="dropdown-item active" href="#">Saiba mais...</a></li>
+              <li><a class="dropdown-item active" href="https://igorsans.github.io/DevUP/assets/pages/produtos.html">Saiba mais...</a></li>
               <li><a class="dropdown-item" href="#">Produto 1</a></li>
               <li><a class="dropdown-item" href="#">Produto 2</a></li>
               <li><hr class="dropdown-divider"></li>
               <li><a class="dropdown-item" href="#">Produto 3</a></li>
             </ul>
           </div>
+        </li>
         </ul>
-        <form class="d-flex" style="margin-right: 20px">
-          <button class="btn-form">
-            <p><a class="p1" href="../cadastro.html"><i class="bi bi-box-arrow-in-left"></i>o poxa</a></p>
-          </button>
-        </form>
-        <form class="d-flex" style="margin-right: 20px">
-          <button class="btn-form2">
-            <p><a class="p2" href="../login.html"><i class="bi bi-person-circle"></i>foi</a></p>
-          </button>
-        </form>
+        <div class="d-grid gap-2 col-1">
+          
+          <a class="btn btn-primary btn-lg disabled" role="button" aria-disabled="true"><span id="usuarioIdentificacao"></span></a>
+          <button class="btn btn-primary" type="button" id="btnLoggout">Button</button>
+        </div>
         </div>
       </div>
     </div>
   </nav>
 </header>
+<script>$('btnLoggout').click(deslogar())
+identificar('#usuarioIdentificacao')</script>
 

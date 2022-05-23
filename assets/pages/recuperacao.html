@@ -1,9 +1,11 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DevUp</title>
     <!-- Fonte Poppins -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -47,23 +49,23 @@
         crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" />
     <link rel="stylesheet" href="../css/recuperacao.css">
-    <title>Recuperação de senha</title>
 </head>
+
 <body>
     <header>
         <div id="headerNav"></div>
     </header>
- <main>
-    <div class="divPrincipal">
-    <div class="mb-3" >
-        <label for="exampleFormControlInput1" class="form-label">RECUPERAR SENHA</label>
-        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
-      </div>
-      <div class="mb-4">
-        <button class="btnRecuperacao" id="btnRecuperacao">Enviar confirmação</button>
-      </div>
-    </div>
- </main>
+    <main class="container">
+        <form class="divPrincipal">
+            <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">RECUPERAR SENHA</label>
+                <input type="email" name="email "class="form-control" id="exampleFormControlInput1" placeholder="Enter your e-mail">
+            </div>
+            <div class="mb-4">
+                <button type="submit" id="btnConfirmacao" class="btn btn-lg btn-primary"><i class="bi bi-envelope"></i> Enviar confirmação</button>
+        </form>
+        </div>
+    </main>
     <footer>
         <div>
             <div id="footer"></div>
@@ -71,7 +73,8 @@
             <script src="../src/models/modelUser.js"></script>
             <script src="../src/views/viwerUser.js"></script>
             <script src="../src/controller/controllerUser.js"></script>
-        </div>
+            </div>
     </footer>
 </body>
+
 </html>
