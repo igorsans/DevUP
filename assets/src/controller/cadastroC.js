@@ -1,3 +1,7 @@
+class Controller {
+    
+}
+
 const form = new Form
 const viwer = new Viwer
 
