@@ -9,9 +9,9 @@ function identificar(id){
     const identNick = localStorage.getItem('nick');
     $(id).text(`${identnome} ${identNick}`)
 }
-function deslogar(){
-    localStorage.clear();
-    console.log('teste');
-    document.location.reload(true)
-}
+// function deslogar(){
+//     localStorage.clear();
+//     console.log('teste');
+//     document.location.reload(true)
+// }
 
