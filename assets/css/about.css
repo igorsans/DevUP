@@ -101,6 +101,7 @@ padding-top: 20px;
     height: 400px;
     border: 1px solid #f1f1f1;
     perspective: 1000px; /* Remove this if you don't want the 3D effect */
+    border-radius: 10px;
   }
   
   /* This container is needed to position the front and back side */
@@ -111,11 +112,13 @@ padding-top: 20px;
     text-align: center;
     transition: transform 0.8s;
     transform-style: preserve-3d;
+    
   }
   
   /* Do an horizontal flip when you move the mouse over the flip box container */
   .flip-card:hover .flip-card-inner {
     transform: rotateY(180deg);
+    border-radius: 10px;
   }
   
   /* Position the front and back side */
@@ -125,6 +128,7 @@ padding-top: 20px;
     height: 100%;
     -webkit-backface-visibility: hidden; /* Safari */
     backface-visibility: hidden;
+    border-radius: 10px;
   }
   
   /* Style the front side (fallback if image is missing) */
@@ -144,7 +148,9 @@ padding-top: 20px;
   .title-flipcard {
       text-align: center;
       padding-top: 5px;
-      font-size: 20px; /* apenas inicialmente */
+      font-size: 30px; /* apenas inicialmente */
+      color: grey;
+      font-weight: 600;
   }
 
   .img-flipcard {
@@ -201,4 +207,117 @@ padding-top: 20px;
       font-size: 14px;
   }
 
+.paragraph-flipcard {
+  margin: 0 30%;
+  padding-top: 50px;
+  text-align: center;
+  font-size: 17px;
+  
+}
+
+
+/* MEDIA QUERIES */
+
+@media (max-width:380px) {
+    /* smartphones, Android phones, landscape iPhone */ 
+   
+   .parallax {
+       display: none;
+       /* parallax: não está ficando responsivo, por esses motivos, o display-none será setado */
+   }
+   
+   .section-flipcard {
+       display: flex;
+       flex-direction: column;
+       padding: 2px;
+       align-items: center;
+       /* FUNCIONOU */
+   }
+   
+   .paragraph-flipcard {
+       font-size: 15px;
+       padding: 2px;
+   }
+   
+   #rowcards {
+       padding: 10px;
+   }
+   
+   }
+
+@media (max-width:500px) {
+ /* smartphones, Android phones, landscape iPhone */ 
+
+.parallax {
+    display: none;
+    /* parallax: não está ficando responsivo, por esses motivos, o display-none será setado */
+}
+
+.section-flipcard {
+    display: flex;
+    flex-direction: column;
+    padding: 2px;
+    align-items: center;
+    /* FUNCIONOU */
+}
+
+.paragraph-flipcard {
+    font-size: 15px;
+    padding: 2px;
+    margin: 0;
+}
+
+#rowcards {
+    padding: 10px;
+}
+
+}
+
+@media (max-width:800px) {
  
+    .parallax {
+        display: none;
+
+    }
+
+    .section-flipcard {
+        display: flex;
+        flex-direction: column;
+        padding: 2px; 
+        margin: 0 20%;
+        align-items: center;
+    }
+
+    .paragraph-flipcard {
+        font-size: 15px;
+        padding: 2px;
+        margin: 0;
+    }
+
+}
+
+@media (max-width:1300px){
+    .section-flipcard{
+        display: flex;
+        flex-direction: column;
+        padding: 2px;
+        margin: 0% 30%;
+        align-items: center;
+    }
+
+    .parallax {
+        display: none;
+    }
+}
+
+@media (max-width:1500px){
+    .section-flipcard{
+        display: flex;
+        flex-direction: column;
+        padding: 2px;
+        margin: 0% 40%;
+        align-items: center;
+    }
+
+}
+
