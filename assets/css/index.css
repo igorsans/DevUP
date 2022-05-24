@@ -75,18 +75,68 @@
     padding-top: 50px;
 }
 
-.flip-card {
-    background-color: transparent;
+.image-logo{
+    display: flex;
+    justify-content: center;
+    margin: 0 30%;
+}
+
+.image-logo img {
     width: 300px;
-    height: 200px;
-    border: 1px solid #1a1515;
-    perspective: 1000px; /* Remove this if you don't want the 3D effect */
-  }
+    padding-top: 40px;
+    padding-bottom: 20px;
+    margin: 0 30%;
+}
 
-  #flipcardmain {
-      display: flex;
-      justify-content: center;
-      gap: 15px;
-  }
+.p-main-logo p {
+    display: flex;
+    justify-content: center;
+    margin: 0 30%;
+    padding-bottom: 60px;
+    text-align: center;
+    font-size: 17px;
+}
 
-  
+.p-main-logo h2 {
+    display: flex;
+    justify-content: center;
+    margin: 0 30%;
+    padding-bottom: 50px;
+    font-size: 30px;
+    color: rgb(50, 49, 49);
+
+}
+
+.gif-center {
+    display: flex;
+    justify-content: center; 
+    height: 700px; 
+
+}
+
+
+.box-main {
+    width: 300px;
+    height: 220px;
+    border: 1px solid rgb(214, 213, 213);
+}
+
+#section-cards-main{
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    gap: 15px;
+
+}
+
+.icon-content i {
+    font-size: 23px;
+    padding-top: 30px;
+    color: #1764ff;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.icon-content i:hover{
+    color:rgb(50, 50, 50)
+}
