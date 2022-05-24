@@ -166,19 +166,13 @@
 .mapa-section-div{
     height: 500px;
     background-color: #1764ff;
-    padding: 50px;
     display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    gap: 28rem;
-
-
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
 }
-
-.mapa-section-p{
-    align-self: auto;
-    /* background-color: black; */
-    margin-top: 50px;
+.mapa-section-p p {
+    width: 500px;
     
 }
 
@@ -187,5 +181,26 @@
 }
 
 .image-map {
-/* background-color: yellow; */
+height: 400px;
+}
+
+.sub-title-map{
+    text-align: center;
+    padding-top: 50px;
+}
+
+.span-devup-icon{
+    color: #1764ff;
+}
+
+.span-devup-titlemap{
+    font-weight: bold;
+}
+
+.title-map-p-final{
+    display: flex;
+    justify-content: center;
+    margin: 0 30%;
+    padding-top: 20px;
+    text-align: center;
 }
