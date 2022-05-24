@@ -8,14 +8,13 @@
 }
 
 .card-body {
-  padding-top: 20px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
 
 .cardPrincipal {
-  background-color: #c4c4c415;
+  background-color: #c4c4c41c;
   height: 350px;
 }
 
