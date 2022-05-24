@@ -18,6 +18,13 @@
     background-size:cover;
     background-repeat: no-repeat;
     background-position: center;
+
+    /* PARALLAX */
+
+    /* background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; */
    
 }
 .descricao{
@@ -34,3 +41,10 @@
 .descricao >h2,p{
     max-width: 60%;
 }
+
+.p-carrossel {
+    font-size: 25px;
+    margin: 0 30%;
+    padding-bottom: 150px;
+}
+
