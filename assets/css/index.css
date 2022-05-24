@@ -204,3 +204,14 @@ height: 400px;
     padding-top: 20px;
     text-align: center;
 }
+
+.line-meio{
+    height: 1px;
+    background-color: #1764ff;
+    width: 800px;
+    display: flex;
+    justify-content: center;
+    margin: 0 35%;
+    margin-top: 60px;
+
+}
