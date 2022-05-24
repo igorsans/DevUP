@@ -285,7 +285,7 @@ padding-top: 20px;
     }
 }
 
-@media (max-width:1400px){
+/* @media (max-width:1400px){
     .section-flipcard{
         display: flex;
         flex-direction: column;
@@ -294,7 +294,7 @@ padding-top: 20px;
         align-items: center;
     }
 
-}
+} */
 
 
 
