@@ -7,13 +7,11 @@
   
   }
 
-.h-100:hover{
-    text-shadow: none !important;
-    box-sizing: border-box !important;
-    cursor: pointer !important;
-    transition: all 0.5s ease !important;
-    -webkit-transform: scale(1.1) !important;
-    -ms-transform: scale(1.1) !important;
-    transform: scale(1.1) !important;
-    z-index: 2;
+.card{
+    border-color: #1764ff;
+    border-width: 2px;
+}
+
+.col{
+    height: 610px;
 }
