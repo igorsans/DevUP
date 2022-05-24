@@ -43,12 +43,12 @@
 }
 
 .p-carrossel {
-    font-size: 28px;
+    font-size: 20px;
     margin: 0 30%;
-    padding-bottom: 150px;
-}
+    padding-bottom: 50px;
+} 
 
-#cards-main{
+.cards-main{
     display: flex;
     justify-content: center;
     gap: 15px;
@@ -60,4 +60,33 @@
 .card-img-top{
     padding-top: 10px;
     border-radius: 10px;
+    width: 600px;
 }
+
+.card-body{
+    width: 100%;
+    text-align: right;
+    margin: none; 
+
+} */
+
+
+#row-cards{
+    padding-top: 50px;
+}
+
+.flip-card {
+    background-color: transparent;
+    width: 300px;
+    height: 200px;
+    border: 1px solid #1a1515;
+    perspective: 1000px; /* Remove this if you don't want the 3D effect */
+  }
+
+  #flipcardmain {
+      display: flex;
+      justify-content: center;
+      gap: 15px;
+  }
+
+  
