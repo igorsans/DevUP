@@ -6,7 +6,7 @@
     font-style: normal;
   
   }
-
+/* 
 .h-100:hover{
     text-shadow: none !important;
     box-sizing: border-box !important;
@@ -16,4 +16,27 @@
     -ms-transform: scale(1.1) !important;
     transform: scale(1.1) !important;
     z-index: 2;
+}
+ */
+
+.col{
+    padding-left: 12px;
+    height: 610px;
+}
+
+.card{
+    border-color: #1764ff;
+    border-width: 2px;
+}
+.card-text{
+    font-size: 16px;
+    padding-bottom: 15px;
+}
+
+.produtos{
+    font-size: 70px;
+}
+
+.subProdutos{
+    font-size: 25px;
 }
