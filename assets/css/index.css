@@ -13,8 +13,16 @@
 }
 .img-robot{
     width: 100%;
-    height: 1000px;
+    height: 700px;
     background-image: url(../images/robotindex.jpg);
-    background-size: contain;
+    background-size:cover;
     background-repeat: no-repeat;
+    background-position: center;
+   
+}
+.descricao{
+    width: 70%;
+    text-align: center;
+    font-weight: bold;
+    color: rgb(24, 24, 24); 
 }
