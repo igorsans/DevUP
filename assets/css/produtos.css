@@ -7,6 +7,7 @@
   
   }
 
+/* 
 .h-100:hover{
     text-shadow: none !important;
     box-sizing: border-box !important;
@@ -16,4 +17,27 @@
     -ms-transform: scale(1.1) !important;
     transform: scale(1.1) !important;
     z-index: 2;
+}
+ */
+ 
+.col{
+    padding-left: 50px;
+    height: 500px;
+}
+
+.card{
+    border-color: #1764ff;
+}
+
+.card-text{
+    font-size: 14px;
+    padding-bottom: 15px;
+}
+
+.echoRewards{
+    font-size: 13px;
+}
+
+.syntax{
+    font-size: 18px;
 }
