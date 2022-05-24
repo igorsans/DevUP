@@ -43,8 +43,21 @@
 }
 
 .p-carrossel {
-    font-size: 25px;
+    font-size: 28px;
     margin: 0 30%;
     padding-bottom: 150px;
 }
 
+#cards-main{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 99%;
+}
+
+.card-img-top{
+    padding-top: 10px;
+    border-radius: 10px;
+}
