@@ -21,8 +21,16 @@
    
 }
 .descricao{
-    width: 70%;
+    width: 100%;
+    height: 100%;
     text-align: center;
     font-weight: bold;
     color: rgb(24, 24, 24); 
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+} 
+.descricao >h2,p{
+    max-width: 60%;
 }
