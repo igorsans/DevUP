@@ -21,23 +21,16 @@
  */
  
 .col{
-    padding-left: 50px;
-    height: 500px;
+    padding-left: 12px;
+    height: 610px;
 }
 
 .card{
     border-color: #1764ff;
+    border-width: 2px;
 }
 
 .card-text{
-    font-size: 14px;
+    font-size: 16px;
     padding-bottom: 15px;
-}
-
-.echoRewards{
-    font-size: 13px;
-}
-
-.syntax{
-    font-size: 18px;
 }
