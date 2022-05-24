@@ -162,3 +162,30 @@
     font-weight: 900;
     color: #1764ff;
 }
+
+.mapa-section-div{
+    height: 500px;
+    background-color: #1764ff;
+    padding: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 28rem;
+
+
+}
+
+.mapa-section-p{
+    align-self: auto;
+    /* background-color: black; */
+    margin-top: 50px;
+    
+}
+
+.mapa-section{
+    padding-top: 60px;
+}
+
+.image-map {
+/* background-color: yellow; */
+}
