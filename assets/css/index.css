@@ -246,6 +246,20 @@ height: 400px;
     color: #1764ff;
 }
 
+
+.padding-row-section{
+    padding: 30px;
+    font-size: 30px;
+}
+
+.row-section-p p{
+    font-weight: 600;
+}
+
+.box-main{
+    gap: 30px;
+}
+
 /* MEDIA QUERIES: INDEX */
 
 @media (max-width){
@@ -262,8 +276,7 @@ height: 400px;
         display: flex;
         flex-direction: column;
         justify-content: center;
-    }    
-
+    }   
 }
 
 
