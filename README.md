@@ -25,7 +25,7 @@
 
 DevUP é o projeto de um empresa de tecnologia criado para o Módulo II da RESILIA Educação. A empresa tem como objetivo ajudar desenvolvedores de forma global com seus produtos inovadores e tecnológicos que antendem necessidade de uma sociedade emergente e digital. O Módulo II da Resilia Educação é focado em estruturar conceitos de JavaScript Orientado à Objetos com o padrão arquitetural MVC. O MVC é uma sigla do termo em inglês Model (modelo) View (visão) e Controller (Controle) que facilita a troca de informações, fazendo com que as respostas sejam mais rápidas e dinâmicas. Além disso, a proposta incluia que a aplicação fosse desenvolvida utilizando o Framework CSS Bootstrap, agregando na responsividade final do projeto. <br>
 
-## **Detalhes da aplicação;**
+## **Requisitos;**
 
 ⭐ Todas as páginas devem utilizar o mesmo cabeçalho com menu de navegação e rodapé.
 
@@ -36,7 +36,7 @@ DevUP é o projeto de um empresa de tecnologia criado para o Módulo II da RESIL
 - Página de login; 
 - Página de recuperação de senha; 
 
-## **Requisitos do projeto;** 
+## **Obrigatoriedade;** 
 - O framework CSS Bootstrap deve ser utilizado na elaboração do projeto (versão
 4 ou superior);
 - A API ViaCEP deve ser utilizada para obter dados referentes aos CEPs utilizados
@@ -45,6 +45,9 @@ no cadastro;
 colaboradores e disponibilização de uma GithubPage com o projeto;
 
 ## **Aplicação**; 
+![Design sem nome](https://user-images.githubusercontent.com/101408372/170374048-2bbf73fc-9b0c-4e79-a255-71bcd17453a9.gif)
+
+
 
 
 
