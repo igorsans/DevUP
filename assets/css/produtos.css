@@ -40,3 +40,22 @@
 .subProdutos{
     font-size: 25px;
 }
+
+.echoRewards{
+    font-size: 15px;
+}
+
+@media (max-width: 1024px){
+   .d-flex{
+       align-items: center;
+   }
+   .col{
+        width: 1000px;    
+   }
+}
+
+@media (max-width: 1369px){
+    .imgEcho{
+       margin-bottom: -10px;
+    }
+}
