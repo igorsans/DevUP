@@ -214,6 +214,7 @@ height: 400px;
 
 .aspas-client{
     font-size: 35px;
+    color: #1764ff;
 }
 
 .title-user-client {
@@ -239,8 +240,10 @@ height: 400px;
     padding-bottom: 30px;
 }
 
-.col-sm-6:hover{
 
+.card-text{
+    font-size: 15px;
+    font-weight: 500;
 }
 
 
