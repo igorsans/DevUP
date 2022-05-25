@@ -23,7 +23,21 @@
 
 ## **Sobre;** <br>
 
-DevUP é o projeto de um empresa de tecnologia criado para o Módulo II da RESILIA Educação. A empresa tem como objetivo ajudar desenvolvedores de forma global com seus produtos inovadores e tecnológicos que antendem necessidade de uma sociedade emergente e digital. O Módulo II da Resilia Educação é focado em estruturar conceitos de JavaScript Orientado à Objetos com o padrão arquitetural MVC. O MVC é uma sigla do termo em inglês Model (modelo) View (visão) e Controller (Controle) que facilita a troca de informações, fazendo com que as respostas sejam mais rápidas e dinâmicas. Além disso, a proposta incluia que a aplicação fosse desenvolvida utilizando o Framework CSS Bootstrap, agregando na responsividade final do projeto. <br>
+DevUP é o projeto de um empresa de tecnologia criado para o Módulo II da RESILIA Educação. A empresa tem como objetivo ajudar desenvolvedores de forma global com seus produtos inovadores e tecnológicos que antendem necessidade de uma sociedade emergente e digital. O Módulo II da Resilia Educação é focado em estruturar conceitos de JavaScript Orientado à Objetos com o padrão arquitetural MVC. O MVC é uma sigla do termo em inglês Model (modelo) View (visão) e Controller (Controle) que facilita a troca de informações, fazendo com que as respostas sejam mais rápidas e dinâmicas. Além disso, a proposta incluia que a aplicação fosse desenvolvida utilizando o Framework CSS Bootstrap, agregando na responsividade final do projeto. <br><br>
+
+
+<h2 align="center"><strong> visite a DevUP | scan QRCode</strong></h2>
+
+<div align="center">
+
+![frame-removebg-preview](https://user-images.githubusercontent.com/101408372/170375012-e6e19ae2-519a-44a2-84ab-97825c57d5e4.png)
+
+
+</div>
+
+## **GitHub Pages**; 
+
+O website DevUP está hospedado no GitHub Pages: [Technology Company: DevUP](https://igorsans.github.io/DevUP/index.html)
 
 ## **Requisitos;**
 
@@ -46,6 +60,7 @@ colaboradores e disponibilização de uma GithubPage com o projeto;
 
 ## **Aplicação**; 
 ![Design sem nome](https://user-images.githubusercontent.com/101408372/170374048-2bbf73fc-9b0c-4e79-a255-71bcd17453a9.gif)
+
 
 
 
