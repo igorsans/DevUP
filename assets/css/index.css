@@ -257,7 +257,7 @@ height: 400px;
 
 /* MEDIA QUERIES: INDEX */
 
-@media (max-width:376px){
+@media (max-width){
     #section-cards-main{
         display: flex;
         flex-direction: column;
@@ -265,6 +265,19 @@ height: 400px;
         align-items: center;
         margin: 0 21%;
     }
+
+
+    #user-client{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }    
+
+}
+
+
+@media (max-width: 500px){
+
 }
 
 /* carrossel está responsivo a partir de 376px => IphoneSE */
