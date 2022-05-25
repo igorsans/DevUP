@@ -83,7 +83,7 @@ p a:hover {
     width: 6px;
     background: #1764ff;
 }
-::-webkit-scrollbar-thumb {
+/* ::-webkit-scrollbar-thumb {
     background: #1764ff;
-}
+} */
 
