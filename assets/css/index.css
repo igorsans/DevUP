@@ -206,9 +206,18 @@ height: 400px;
     text-align: center;
 }
 
+.country-map-title {
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    margin: 0 30%;
+    font-size: 25px;
+    align-items: center;
+}
+
 /* MEDIA QUERIES: INDEX */
 
-@media (max-width:380px){
+@media (max-width:376px){
     #section-cards-main{
         display: flex;
         flex-direction: column;
@@ -217,4 +226,7 @@ height: 400px;
         margin: 0 21%;
     }
 }
+
+/* carrossel está responsivo a partir de 376px => IphoneSE */
+
 
