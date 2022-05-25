@@ -1,4 +1,3 @@
-// ola eu sou sua viwer
 class ViwerUser{
     constructor(){
         this.header = $('#headerNav')

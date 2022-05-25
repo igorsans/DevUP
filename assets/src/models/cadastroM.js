@@ -1,5 +1,4 @@
 class Cadastro {
-
     constructor() {
         this._nameUser = $('#inputName').val()
         this._nickUser = $('#inputNick').val()
