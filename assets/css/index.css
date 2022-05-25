@@ -246,8 +246,14 @@ height: 400px;
     font-weight: 500;
 }
 
+.arroba {
+    font-size: 20px;
+}
 
-
+.title-user-client i {
+    font-size: 25px;
+    color: #1764ff;
+}
 
 /* MEDIA QUERIES: INDEX */
 
