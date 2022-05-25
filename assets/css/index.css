@@ -11,22 +11,7 @@
     height: 600px;
     object-fit: cover
 }
-.img-robot{
-    width: 100%;
-    height: 700px;
-    background-image: url(../images/robotindex.jpg);
-    background-size:cover;
-    background-repeat: no-repeat;
-    background-position: center;
 
-    /* PARALLAX */
-
-    /* background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover; */
-   
-}
 .descricao{
     width: 100%;
     height: 100%;
@@ -38,12 +23,9 @@
     justify-content:center;
     align-items: center;
 } 
-.descricao >h2,p{
-    max-width: 60%;
-}
 
 .p-carrossel {
-    font-size: 20px;
+    font-size: 15px;
     margin: 0 30%;
     padding-bottom: 50px;
 } 
@@ -211,8 +193,66 @@ height: 400px;
     display: flex;
     justify-content: center;
     margin: 0 30%;
-    font-size: 25px;
+    font-size: 18px;
     align-items: center;
+}
+
+.boxOne1, .boxOne2{
+    width: 300px;
+    height:100px;
+    border: 1px solid red;
+    display: flex;
+    justify-content: center;
+}
+
+#user-client {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding-top: 30px
+}
+
+.aspas-client{
+    font-size: 35px;
+    color: #1764ff;
+}
+
+.title-user-client {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(50, 49, 49);
+}
+
+.col-sm-6{
+    /* cursor: pointer; */
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 30px;
+}
+
+
+.card-text{
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.arroba {
+    font-size: 20px;
+}
+
+.title-user-client i {
+    font-size: 25px;
+    color: #1764ff;
 }
 
 /* MEDIA QUERIES: INDEX */
