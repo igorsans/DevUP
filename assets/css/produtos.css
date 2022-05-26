@@ -109,3 +109,14 @@
         width: 110px;
     }
 }
+
+@media (max-width: 320px){
+    .h-100{
+        width: 300px;
+    }
+    .subProdutos{
+        display: flex;
+        flex-direction: row;
+        margin-left: 50px;
+    }
+}
