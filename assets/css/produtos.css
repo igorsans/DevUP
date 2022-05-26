@@ -33,6 +33,17 @@
     font-size: 15px;
 }
 
+@media (max-width: 1440px){
+    .r2Dup-icon{
+        margin-bottom: 3px;
+    }
+    .r2Dup{
+        margin-bottom: 23px;
+    }
+    .imgEcho2{
+        margin-bottom: 10px;
+    }
+}
 
 @media (max-width: 1024px){
    .d-flex{
@@ -49,3 +60,8 @@
     }
 }
 
+@media (max-width: 1920px){
+    .imgEcho2{
+        margin-bottom: 5px;
+    }
+}
