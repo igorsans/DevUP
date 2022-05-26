@@ -98,7 +98,7 @@ A organização do projeto foi paltada em *tasks* no Trello (inspirado na metodo
 
 ## **Depoimentos;**
 
-*"Trabalhar com a Squad7 é sinonimo de crescimento e evolução. Obrigada por serem uma equipe tão focada e aberta à novas ideias, me senti acolhida por todos nesse módulo II, espero poder reve-los em futuros trabalhos. Toda minha gratidão à esse grupo diverso e maravilhoso!"*
+*"Trabalhar com a Squad7 é sinonimo de crescimento e evolução. Obrigada por serem uma equipe tão focada e aberta à novas ideias, me senti acolhida por todos nesse módulo II, espero poder reve-los em futuros trabalhos. Toda minha gratidão à esse grupo diverso e maravilhoso!"* - **Sabrina Guimarães**
 
 *“Fazer parte desse projeto foi uma experiência única e satisfatória, o resultado final é espelho da capacidade e dedicação de todos. Irei guardar essa memória no meu baú de desafios mais recompensadores, porque aprendi muito com cada integrante.”*  - **Igor Santos**
 
