@@ -26,15 +26,6 @@
 DevUP é o projeto de um empresa de tecnologia criado para o Módulo II da RESILIA Educação. A empresa tem como objetivo ajudar desenvolvedores de forma global com seus produtos inovadores e tecnológicos que antendem necessidade de uma sociedade emergente e digital. O Módulo II da Resilia Educação é focado em estruturar conceitos de JavaScript Orientado à Objetos com o padrão arquitetural MVC. O MVC é uma sigla do termo em inglês Model (modelo) View (visão) e Controller (Controle) que facilita a troca de informações, fazendo com que as respostas sejam mais rápidas e dinâmicas. Além disso, a proposta incluia que a aplicação fosse desenvolvida utilizando o Framework CSS Bootstrap, agregando na responsividade final do projeto. <br><br>
 
 
-<h2 align="center" widht="10px"><strong> visite a DevUP | scan QRCode</strong></h2>
-
-<div align="center">
-
-![echo](https://user-images.githubusercontent.com/101408372/170385901-80be3228-e42f-4087-80c1-34cf5b9abd60.png)
-
-
-</div>
-
 ## **GitHub Pages**; 
 
 O website DevUP está hospedado no GitHub Pages: [Technology Company: DevUP](https://igorsans.github.io/DevUP/index.html)
