@@ -65,3 +65,25 @@
         margin-bottom: 5px;
     }
 }
+
+@media (max-width: 375px){
+    .h-100{
+        width: 300px;
+        margin-left: -70px;
+    }
+    .imgEcho{
+        margin-bottom: -40px;
+    }
+    .imgEcho2{
+        margin-bottom: -22px;
+    }
+    .btnHome{
+        width: 110px;
+    }
+    .btnPlanos{
+        width: 100px;
+    }
+    .produtos{
+        font-size: 40px;
+    }
+}
