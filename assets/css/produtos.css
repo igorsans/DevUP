@@ -49,22 +49,3 @@
     }
 }
 
-@media (max-width: 2560px){
-    .r2Dup{
-        width: 330px;
-        height: 330px;
-        margin-left: 170px;
-        margin-top: 50px;
-        margin-bottom: 25px;
-        padding-bottom: 120px;
-    }
-    .r2Dup2{
-        margin-top: -80px;
-    }
-    .imgEcho{
-        margin-bottom: -20px;
-    }
-    .imgEcho2{
-        margin-bottom: -60px;
-    }
-}
