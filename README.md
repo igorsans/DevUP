@@ -12,7 +12,6 @@
 
 </div> 
 
-<br>
 
 <h2 align="center"><strong>Tecnologias Utilizadas</strong></h2>
 
